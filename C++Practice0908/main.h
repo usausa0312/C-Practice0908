@@ -20,6 +20,7 @@ public:
     ~man() { cout << m_name << "死" << endl; }
     //フレンドクラス宣言
     friend class woman;
+
 private:
     string m_name;
 };
